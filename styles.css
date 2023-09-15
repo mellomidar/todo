@@ -16,19 +16,24 @@ body {
   display: flex;
   align-items: center;
   height: 70px;
+  padding: 0 20px;
+  border-radius: .5rem;
 }
 
 .search-bar .search-field {
-  width: 90%;
+  width: 100%;
 }
 
 .search-bar .search-field input {           
-  width: 100%;
+  width: 90%;
   height: 100%;
   padding: 1rem;
   font-size: 1.5rem;
+  border-radius: .5rem;
+  border: none;
 }
 
 .search-bar img {
-  width: 10%                        ;
+  width: 5%;
+  cursor: pointer                        ;
 }
