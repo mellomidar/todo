@@ -1,3 +1,3 @@
 document.getElementById("search-btn").addEventListener("click", ()=> {
-  alert("button clicked");
+  console.log("button clicked");
 });
